@@ -9,4 +9,13 @@ public class RsaKeyExchange
         RSA rsa = RSA.Create(2048);
         return rsa;
     }
+
+    /// <summary>
+    /// Exports the public key in SubjectPublicKeyInfo PEM format.
+    /// </summary>
+    public string ExportPublicKey(RSA rsa)
+    {
+        ArgumentNullException.ThrowIfNull(rsa);
+        return rsa.ExportSubjectPublicKeyInfoPem();
+    }
 }
