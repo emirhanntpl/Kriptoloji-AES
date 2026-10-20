@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="ChatClient/ChatClient.csproj" />
-  <Project Path="CryptoKeyExchange.Tests/CryptoKeyExchange.Tests.csproj" />
   <Project Path="CryptoKeyExchange/CryptoKeyExchange.csproj" />
 </Solution>
