@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoKeyExchange", "CryptoKeyExchange\CryptoKeyExchange.csproj", "{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Debug|x86.Build.0 = Debug|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|x64.Build.0 = Release|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|x86.ActiveCfg = Release|Any CPU
+		{AE71F552-25D7-4DD2-A3E8-AEBBD0EA3627}.Release|x86.Build.0 = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|x64.Build.0 = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B76BD8E-6D48-4CDD-913C-E3E8698688A8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
