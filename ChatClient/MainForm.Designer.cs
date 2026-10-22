@@ -1,6 +1,6 @@
 ﻿namespace ChatClient
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.

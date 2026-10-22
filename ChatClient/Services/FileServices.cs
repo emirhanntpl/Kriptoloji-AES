@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChatClient.Services
 {
-    internal class TcpChatClient
+    internal class FileServices
     {
     }
 }
