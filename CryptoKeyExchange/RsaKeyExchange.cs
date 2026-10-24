@@ -43,6 +43,14 @@ public class RsaKeyExchange
         ArgumentNullException.ThrowIfNull(encryptedKey);
         ArgumentNullException.ThrowIfNull(recipientPrivateKey);
 
-        return recipientPrivateKey.Decrypt(encryptedKey, RSAEncryptionPadding.OaepSHA256);
+        byte[] aesKey = recipientPrivateKey.Decrypt(encryptedKey, RSAEncryptionPadding.OaepSHA256);
+
+        if (aesKey.Length != 16)
+        {
+            CryptographicOperations.ZeroMemory(aesKey);
+            throw new CryptographicException("Çözülen AES anahtarı 16 bayt olmalıdır.");
+        }
+
+        return aesKey;
     }
 }
