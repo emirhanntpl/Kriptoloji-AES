@@ -45,5 +45,5 @@
 - Diğer ekip üyelerinin kodunu gereksiz değiştirme.
 - Public API değişikliklerinin etkisini açıkla.
 - Önemli kod değişikliklerinin mantığını kısa açıkla.
-- Mevcut testleri çalıştır; test altyapısı yoksa
-  gereksiz yeni test projesi oluşturma.
+- Test Dosyası sorulmadıkça OLUŞTURMA.
+- AGENTS.md dosyasını istenmedikçe kesinlikle düzenleme sadece oku.
